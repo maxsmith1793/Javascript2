@@ -8,6 +8,7 @@ import Counter from './components/counter';
 import FunctionClick from './components/Functionclick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import StyleSheet from './components/stylesheets';
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
       <FunctionClick/>
       <ClassClick/>
       <EventBind/>
+
+      <StyleSheet/>
     </div>
   );
 }
